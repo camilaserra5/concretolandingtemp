@@ -7,7 +7,7 @@ import FilterInput from "@/components/filter-input";
 import FilterLabel from "@/components/filter-label";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import { IconLogout, IconMenu } from "@/components/icons";
+import { IconLogin, IconMenu } from "@/components/icons";
 
 export default function Home() {
   const t = useTranslations();
@@ -48,7 +48,7 @@ export default function Home() {
           </nav>
           <button className="bg-btn-400 rounded-full font-bold uppercase text-2xs pl-1.5 pr-2.5 hover:bg-btn-300 transition-color duration-500">
             <div className="flex items-center space-x-0.5">
-              <IconLogout classname="size-6" />
+              <IconLogin classname="size-6" />
               <p className="-mb-0.5">Login</p>
             </div>
           </button>
